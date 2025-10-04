@@ -1,20 +1,18 @@
 ---
 # Display name
-title: Alex Johnson
+title: Pradyumna Chacham 
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Pradyumna 
+last_name: Chacham
 
 # Pronouns (optional)
 pronouns: he/him
 
-# Status emoji
-status:
-  icon: 🚀
+
 
 # Is this the primary user of the site?
 superuser: true
@@ -22,148 +20,119 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: Senior AI Research Scientist
 
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:chachampradyumna@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Pradyumna-Chacham
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/pradyumna-chacham/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=5TBXGk4AAAAJ&hl=en
 
-interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Master of Computer Science
+    institution: NC State University
+    date_start: 2025-08-18
+    date_end: 2027-05-06
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      Courses: 
+      * CSC 505: Design and Analysis. of Algorithms 
+      * CSC 510: Software Engineering 
+      * CSC 522: Automated Learning and Data Analysis     
+  - area: B.E in Computer Science and Engineering
+    institution: MVSR Engineering College, Hyderabad
+    date_start: 2021-12-06
+    date_end: 2025-05-30
     summary: |
-      GPA: 4.0/4.0
+      GPA: 9.45/10.00
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Data Structures, Object-Oriented Programming, Database Management Systems, Operating Systems, Artificial Intelligence & Machine Learning, Computer Networks.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+  - position: Packaged App Development Associate Intern
+    company_name: Accenture
+    date_start: 2025-02-26
+    date_end: 2025-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Developed end-to-end WMS transaction workflows in Oracle PL/SQL, executing over 50 transaction cycles with 100% accuracy, strengthening enterprise application reliability and understanding of transactional integrity in supply chain operations.
+  - position: Student Intern
+    company_name: Osmania University
+    date_start: 2024-04-01
+    date_end: 2024-06-30
+    summary: |
+      Built a real-time Object Tracking System using YOLOv9 + DeepSORT, tracking 500+ objects across video frames with 73% IDF1 and 92.5% ID Precision, demonstrating practical application of computer vision in real-world scenarios.
+  - position: Student Intern
+    company_name: PHN Technology Pvt Ltd
+    date_start: 2023-04-01
+    date_end: 2023-06-30
+    summary: |
+      Designed ML regression models on a demographic dataset of 10,000+ records, generating actionable insights through Python-based data visualization, enabling the company to identify key population trends and inform strategic decisions.
+
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming & Tools
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
         percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
+        icon: hero/code-bracket
+      - name: C++, Java & C
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: hero/code-bracket-square
+      - name: SQL
+        description: ''
+        percent: 85
+        icon: hero/circle-stack
+  - name: AI & Data Science
+    items:
+      - name: Machine Learning & NLP
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: hero/chart-bar
+      - name: Computer Vision
         description: ''
-        percent: 70
-        icon: book-open
+        percent: 85
+        icon: hero/camera
+      - name: Data Analytics & Visualization
+        description: ''
+        percent: 85
+        icon: hero/chart-pie
 
-languages:
-  - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: Gold Medalist
+    date: '2025-05-01'
+    awarder: MVSR Engineering College
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Awarded for being the student with the highest CGPA in the Computer Science department.
+  - title: IEEE Xtreme 18.0 Hackathon
+    date: '2024-10-01'
+    awarder: IEEE
+    icon: hero/trophy
+    summary: |
+      Placed in the Top 1400 out of 6000 teams globally in a 24-hour programming competition.
+  - title: Chair, IEEE Computer Society Student Branch
+    date: '2024-05-01'
+    awarder: IEEE
+    icon: hero/user-group
+    summary: |
+      Led the student branch for the 2024-25 term. 
 ---
-
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Master of Computer Science student at NC State University with academic and internship experience in AI/ML, Computer Vision, NLP, and Data Analytics. Skilled in applying data-driven approaches to solve practical problems, with published research and hands-on project work across multiple domains.
