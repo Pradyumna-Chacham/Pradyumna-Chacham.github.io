@@ -36,6 +36,8 @@ locale:
 
 # Site features
 features:
+  search:
+    enable: false
   math:
     enable: false
   privacy_pack:
